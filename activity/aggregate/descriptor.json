@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "title": "Aggregate",
   "description": "Simple Aggregate Activity",
-  "homepage": "https://gitlab.f-in.io/project-flogo/stream/tree/master/activity/aggregate",
+  "homepage": "https://github.com/g-lazaridis/stream/tree/master/activity/aggregate",
   "settings": [
     {
       "name": "function",

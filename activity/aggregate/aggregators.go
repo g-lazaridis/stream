@@ -3,8 +3,8 @@ package aggregate
 import (
 	"fmt"
 
-	"gitlab.f-in.io/project-flogo/stream/activity/aggregate/window"
-	"gitlab.f-in.io/project-flogo/stream/activity/aggregate/window/functions"
+	"github.com/g-lazaridis/stream/activity/aggregate/window"
+	"github.com/g-lazaridis/stream/activity/aggregate/window/functions"
 )
 
 func NewTumblingWindow(function string, settings *window.Settings) (window.Window, error) {

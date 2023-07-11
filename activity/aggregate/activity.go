@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/g-lazaridis/stream/activity/aggregate/window"
+	"github.com/g-lazaridis/stream/pipeline/support"
 	"github.com/project-flogo/core/activity"
 	"github.com/project-flogo/core/data/metadata"
-	"gitlab.f-in.io/project-flogo/stream/activity/aggregate/window"
-	"gitlab.f-in.io/project-flogo/stream/pipeline/support"
 )
 
 const (

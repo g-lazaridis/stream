@@ -3,8 +3,8 @@ package window
 import (
 	"testing"
 
+	"github.com/g-lazaridis/stream/activity/aggregate/window/functions"
 	"github.com/stretchr/testify/assert"
-	"gitlab.f-in.io/project-flogo/stream/activity/aggregate/window/functions"
 )
 
 // note:  using interface{} 4x slower than using specific types, starting with interface{} for expediency
