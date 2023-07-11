@@ -1,4 +1,4 @@
-module gitlab.f-in.io/project-flogo/stream/trigger/streamtester
+module github.com/g-lazaridis/stream/trigger/streamtester
 
 require (
 	github.com/julienschmidt/httprouter v1.3.0

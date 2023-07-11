@@ -38,12 +38,12 @@ We’ve made building powerful streaming pipelines as easy as possible. Develop 
 - A simple, clean JSON-based DSL
 - Golang API
 
-See the sample below of an aggregation pipeline (for brevity, the triggers and metadata of the resource has been omitted). Also don’t forget to check out the [examples](https://gitlab.f-in.io/project-flogo/stream/tree/master/examples) in the repo.
+See the sample below of an aggregation pipeline (for brevity, the triggers and metadata of the resource has been omitted). Also don’t forget to check out the [examples](https://github.com/g-lazaridis/stream/tree/master/examples) in the repo.
 
 ```json
   "stages": [
     {
-      "ref": "gitlab.f-in.io/project-flogo/stream/activity/aggregate",
+      "ref": "github.com/g-lazaridis/stream/activity/aggregate",
       "settings": {
         "function": "sum",
         "windowType": "timeTumbling",
@@ -66,7 +66,7 @@ See the sample below of an aggregation pipeline (for brevity, the triggers and m
 
 Firstly you should install the install the [Flogo CLI](https://github.com/project-flogo/cli).
  
-Next you should download our aggregation example [agg-flogo.json](https://gitlab.f-in.io/project-flogo/stream/blob/master/examples/agg-flogo.json).
+Next you should download our aggregation example [agg-flogo.json](https://github.com/g-lazaridis/stream/blob/master/examples/agg-flogo.json).
 
 We'll create a our application using the example file, we'll call it myApp
 
@@ -89,4 +89,4 @@ Flogo Stream also provides some activities to assist in stream processing.
 * [Filter](activity/filter/README.md) : This activity allows you to filter out data in a streaming pipeline.
 
 ## License 
-Flogo source code in [this](https://gitlab.f-in.io/project-flogo/stream) repository is under a BSD-style license, refer to [LICENSE](https://github.com/project-flogo/strem/blob/master/LICENSE)
+Flogo source code in [this](https://github.com/g-lazaridis/stream) repository is under a BSD-style license, refer to [LICENSE](https://github.com/project-flogo/strem/blob/master/LICENSE)

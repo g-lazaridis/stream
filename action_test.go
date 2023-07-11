@@ -4,17 +4,17 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/g-lazaridis/stream/pipeline"
 	"github.com/project-flogo/core/action"
 	"github.com/project-flogo/core/app/resource"
 	"github.com/project-flogo/core/engine/channels"
 	"github.com/project-flogo/core/support/test"
 	"github.com/stretchr/testify/assert"
-	"gitlab.f-in.io/project-flogo/stream/pipeline"
 )
 
 const testConfig string = `{
   "id": "flogo-stream",
-  "ref": "gitlab.f-in.io/project-flogo/stream",
+  "ref": "github.com/g-lazaridis/stream",
   "settings": {
     "streamURI": "res://stream:test",
     "outputChannel": "testChan"

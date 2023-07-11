@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "title": "Filter",
   "description": "Simple Filter Activity",
-  "homepage": "https://gitlab.f-in.io/project-flogo/stream/tree/master/activity/filter",
+  "homepage": "https://github.com/g-lazaridis/stream/tree/master/activity/filter",
   "settings": [
     {
       "name": "type",

@@ -7,7 +7,7 @@ This trigger gives you the ability to test your stream application using mock da
 ## Installation
 
 ```bash
-flogo install gitlab.f-in.io/project-flogo/stream/trigger/streamtester
+flogo install github.com/g-lazaridis/stream/trigger/streamtester
 ```
 
 ### Configuration
@@ -68,7 +68,7 @@ Configure the trigger to emit data from the csv file every 50 milliseconds.
   "triggers": [
     {
       "id": "stream-tester",
-      "ref": "gitlab.f-in.io/project-flogo/stream/trigger/streamtester",
+      "ref": "github.com/g-lazaridis/stream/trigger/streamtester",
       "handlers": [
         {
           "settings": {
@@ -77,7 +77,7 @@ Configure the trigger to emit data from the csv file every 50 milliseconds.
             "emitDelay": 50
           },
           "action": {
-            "ref": "gitlab.f-in.io/project-flogo/stream",
+            "ref": "github.com/g-lazaridis/stream",
             "settings": {
               "streamURI": "res://stream:mystream"
             }

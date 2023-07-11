@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.f-in.io/project-flogo/stream/pipeline/support"
+	"github.com/g-lazaridis/stream/pipeline/support"
 
 	"github.com/project-flogo/core/activity"
 	"github.com/project-flogo/core/data/coerce"

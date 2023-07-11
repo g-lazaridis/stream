@@ -8,12 +8,12 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/g-lazaridis/stream/pipeline/support"
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
 	"github.com/project-flogo/core/data/coerce"
 	"github.com/project-flogo/core/support/log"
 	"github.com/project-flogo/core/support/service"
-	"gitlab.f-in.io/project-flogo/stream/pipeline/support"
 )
 
 const (

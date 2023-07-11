@@ -1,4 +1,4 @@
-module gitlab.f-in.io/project-flogo/stream
+module github.com/g-lazaridis/stream
 
 require (
 	github.com/project-flogo/core v0.10.1

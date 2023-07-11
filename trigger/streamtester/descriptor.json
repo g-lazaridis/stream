@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "title": "Stream Tester",
   "description": "Simple Stream Tester Trigger",
-  "homepage": "https://gitlab.f-in.io/project-flogo/stream/tree/master/trigger/streamtester",
+  "homepage": "https://github.com/g-lazaridis/stream/tree/master/trigger/streamtester",
   "settings":[
     {
       "name":"port",

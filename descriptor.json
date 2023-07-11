@@ -4,7 +4,7 @@
   "version": "0.2.1",
   "title": "Flogo Stream",
   "description": "Simple Stream Action",
-  "homepage": "https://gitlab.f-in.io/project-flogo/stream/tree/master",
+  "homepage": "https://github.com/g-lazaridis/stream/tree/master",
   "async": true,
   "settings": [
     {

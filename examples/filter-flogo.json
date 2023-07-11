@@ -5,8 +5,8 @@
   "appModel": "1.1.0",
   "imports" : [
     "github.com/project-flogo/contrib/trigger/rest",
-    "gitlab.f-in.io/project-flogo/stream",
-    "gitlab.f-in.io/project-flogo/stream/activity/filter",
+    "github.com/g-lazaridis/stream",
+    "github.com/g-lazaridis/stream/activity/filter",
     "github.com/project-flogo/contrib/activity/log"
   ],
   "triggers": [
