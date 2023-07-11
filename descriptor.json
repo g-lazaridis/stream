@@ -1,0 +1,27 @@
+{
+  "name": "stream",
+  "type": "flogo:action",
+  "version": "0.2.1",
+  "title": "Flogo Stream",
+  "description": "Simple Stream Action",
+  "homepage": "https://gitlab.f-in.io/project-flogo/stream/tree/master",
+  "async": true,
+  "settings": [
+    {
+      "name": "streamURI",
+      "type": "string"
+    },
+    {
+      "name": "pipelineURI",
+      "type": "string"
+    },
+    {
+      "name": "groupBy",
+      "type": "string"
+    },
+    {
+      "name": "outputChannel",
+      "type": "string"
+    }
+  ]
+}
